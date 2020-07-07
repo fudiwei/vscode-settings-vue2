@@ -44,6 +44,7 @@ module.exports = {
             selfClosingTag: 'always'
         }],
         'vue/no-unused-components': 'warn',
-        'vue/*': 'off'
+        'vue/*': 'off',
+        '@typescript-eslint/ban-ts-ignore': 'off'
     }
 }
