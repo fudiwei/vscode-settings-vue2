@@ -18,6 +18,14 @@
         "target": "esnext",
         "types": ["chai", "mocha", "webpack-env"]
     },
-    "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "tests/**/*.ts", "tests/**/*.tsx"],
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "tests/**/*.ts",
+        "tests/**/*.tsx",
+        "types/**/*.ts",
+        "@types/**/*.ts"
+    ],
     "exclude": ["node_modules"]
 }
