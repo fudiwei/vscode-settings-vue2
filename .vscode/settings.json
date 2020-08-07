@@ -11,7 +11,7 @@
 	"files.associations": {
 		"*.vue": "vue"
 	},
-	"javascript.format.semicolons": "remove",
+	"javascript.format.semicolons": "insert",
 	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
 	"svn.ignoreMissingSvnWarning": true,
 	"typescript.tsdk": "node_modules/typescript/lib",
