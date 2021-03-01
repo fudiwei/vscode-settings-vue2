@@ -58,27 +58,27 @@
 
 ### 安装 npm 依赖
 
-> 注意：为了避免因版本问题造成的依赖冲突，安装时请务必指定特定版本号。
+> 注意：为了避免因版本问题造成的配置冲突，安装时请务必指定特定版本号。
 
 ```shell
 # 以 npm 为例，使用 yarn 等其他包管理工具的请自行替换成相应命令。
 
-npm install @babel/plugin-proposal-optional-chaining@7.10.4 --save-dev
+npm install @babel/plugin-proposal-optional-chaining@7.12.4 --save-dev
 npm install @typescript-eslint/eslint-plugin@2.34.0 --save-dev
 npm install @typescript-eslint/parser@2.34.0 --save-dev
-npm install @vue/cli-plugin-babel@4.4.6 --save-dev
-npm install @vue/cli-plugin-eslint@4.4.6  --save-dev
-npm install @vue/cli-plugin-typescript@4.4.6 --save-dev
+npm install @vue/cli-plugin-babel@4.5.8 --save-dev
+npm install @vue/cli-plugin-eslint@4.5.8  --save-dev
+npm install @vue/cli-plugin-typescript@4.5.8 --save-dev
 npm install @vue/eslint-config-prettier@6.0.0 --save-dev
 npm install @vue/eslint-config-typescript@5.0.2 --save-dev
 npm install babel-eslint@10.1.0 --save-dev
-npm install babel-plugin-import@1.13.0 --save-dev
+npm install babel-plugin-import@1.13.1 --save-dev
 npm install eslint@6.8.0 --save-dev
-npm install eslint-plugin-html@6.0.2 --save-dev
+npm install eslint-plugin-html@6.0.3 --save-dev
 npm install eslint-plugin-prettier@3.1.4 --save-dev
 npm install eslint-plugin-vue@6.2.2 --save-dev
 npm install prettier@1.19.1 --save-dev
-npm install vue-eslint-parser@7.1.0 --save-dev
+npm install vue-eslint-parser@7.1.1 --save-dev
 ```
 
 ### 开发

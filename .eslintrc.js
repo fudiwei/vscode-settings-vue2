@@ -31,17 +31,18 @@ module.exports = {
     ],
     root: true,
     rules: {
-        'indent': ['error', 4],
-        'linebreak-style': ['error', 'windows'],
+        'indent': ['error', 4, { SwitchCase: 1 }],
+        'linebreak-style': ['warn', 'windows'],
         "max-len": ['warn', 120],
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-        'prettier/prettier': ['warn', { trailingComma: 'none' }],
+        'prettier/prettier': ['warn', { usePrettierrc: true }],
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
         'vue/html-closing-bracket-spacing': ['warn', { selfClosingTag: 'always' }],
         'vue/no-unused-components': 'warn',
         '@typescript-eslint/ban-ts-ignore': 'warn',
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/indent': ['error', 4, { VariableDeclarator: 4, SwitchCase: 1 }],
         '@typescript-eslint/no-non-null-assertion': 'off'
     }
