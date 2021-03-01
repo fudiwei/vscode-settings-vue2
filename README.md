@@ -6,6 +6,8 @@
 
 本项目是为了统一 VSCode 前端在开发 Vue 项目时所使用的格式化配置和 Lint 规则，规范代码风格，提升代码质量。
 
+如果你的项目是基于 `Vue 3.x` 的，请移步 [vscode-settings-vue3](https://github.com/fudiwei/vscode-settings-vue3)。
+
 包括如下功能：
 
 -   基于 `Vue 2.x` + `Vue-CLI 3/4`。
