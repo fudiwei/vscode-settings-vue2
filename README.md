@@ -65,22 +65,26 @@
 ```shell
 # 以 npm 为例，使用 yarn 等其他包管理工具的请自行替换成相应命令。
 
-npm install @babel/plugin-proposal-optional-chaining@7.12.4 --save-dev
-npm install @typescript-eslint/eslint-plugin@2.34.0 --save-dev
-npm install @typescript-eslint/parser@2.34.0 --save-dev
-npm install @vue/cli-plugin-babel@4.5.8 --save-dev
-npm install @vue/cli-plugin-eslint@4.5.8  --save-dev
-npm install @vue/cli-plugin-typescript@4.5.8 --save-dev
+npm install @babel/plugin-syntax-dynamic-import@7.8.3 --save-dev
+npm install @babel/plugin-transform-async-to-generator@7.13.0 --save-dev
+npm install @babel/plugin-transform-regenerator@7.12.13 --save-dev
+npm install @babel/plugin-transform-runtime@7.13.10 --save-dev
+npm install @babel/types@7.13.0 --save-dev
+npm install @typescript-eslint/eslint-plugin@4.18.0 --save-dev
+npm install @typescript-eslint/parser@4.18.0 --save-dev
+npm install @vue/cli-plugin-babel@4.5.12 --save-dev
+npm install @vue/cli-plugin-eslint@4.5.12 --save-dev
+npm install @vue/cli-plugin-typescript@4.5.12 --save-dev
 npm install @vue/eslint-config-prettier@6.0.0 --save-dev
-npm install @vue/eslint-config-typescript@5.0.2 --save-dev
+npm install @vue/eslint-config-typescript@7.0.0 --save-dev
 npm install babel-eslint@10.1.0 --save-dev
 npm install babel-plugin-import@1.13.1 --save-dev
-npm install eslint@6.8.0 --save-dev
-npm install eslint-plugin-html@6.0.3 --save-dev
-npm install eslint-plugin-prettier@3.1.4 --save-dev
-npm install eslint-plugin-vue@6.2.2 --save-dev
-npm install prettier@1.19.1 --save-dev
-npm install vue-eslint-parser@7.1.1 --save-dev
+npm install eslint@7.22.0 --save-dev
+npm install eslint-plugin-html@6.1.2 --save-dev
+npm install eslint-plugin-prettier@3.3.1 --save-dev
+npm install eslint-plugin-vue@7.7.0 --save-dev
+npm install prettier@2.2.1 --save-dev
+npm install vue-eslint-parser@7.6.0 --save-dev
 ```
 
 ### 开发
