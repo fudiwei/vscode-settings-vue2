@@ -23,17 +23,12 @@ module.exports = {
         parser: '@typescript-eslint/parser',
         sourceType: 'module'
     },
-    plugins: [
-        '@typescript-eslint',
-        'html',
-        'prettier',
-        'vue'
-    ],
+    plugins: ['@typescript-eslint', 'html', 'prettier', 'vue'],
     root: true,
     rules: {
         'indent': ['error', 4, { SwitchCase: 1 }],
         'linebreak-style': ['warn', 'windows'],
-        "max-len": ['warn', 120],
+        'max-len': ['warn', 120],
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'prettier/prettier': ['warn', { usePrettierrc: true }],
@@ -41,9 +36,11 @@ module.exports = {
         'semi': ['error', 'always'],
         'vue/html-closing-bracket-spacing': ['warn', { selfClosingTag: 'always' }],
         'vue/no-unused-components': 'warn',
-        '@typescript-eslint/ban-ts-ignore': 'warn',
+        '@typescript-eslint/ban-ts-comment': 'warn',
+        '@typescript-eslint/ban-ts-ignore': 'off',
+        '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
-        '@typescript-eslint/indent': ['error', 4, { VariableDeclarator: 4, SwitchCase: 1 }],
+        '@typescript-eslint/indent': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off'
     }
 };
