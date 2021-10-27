@@ -3,8 +3,8 @@ module.exports = {
         node: true
     },
     extends: [
-        'plugin:vue/essential',
         'eslint:recommended',
+        'plugin:vue/essential',
         '@vue/typescript/recommended',
         '@vue/prettier',
         '@vue/prettier/@typescript-eslint'
@@ -21,7 +21,10 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 2020,
         parser: '@typescript-eslint/parser',
-        sourceType: 'module'
+        sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true
+        }
     },
     plugins: ['@typescript-eslint', 'html', 'prettier', 'vue'],
     root: true,
@@ -41,6 +44,7 @@ module.exports = {
         '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/indent': 'off',
-        '@typescript-eslint/no-non-null-assertion': 'off'
+        '@typescript-eslint/no-non-null-assertion': 'off',
+        '@typescript-eslint/triple-slash-reference': 'off'
     }
 };

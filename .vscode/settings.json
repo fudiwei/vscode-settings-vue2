@@ -11,6 +11,7 @@
     "files.associations": {
         "*.vue": "vue"
     },
+    "files.eol": "\r\n",
     "javascript.format.semicolons": "insert",
     "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
     "svn.ignoreMissingSvnWarning": true,
