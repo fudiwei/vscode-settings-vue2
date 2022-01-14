@@ -12,7 +12,7 @@
 
 -   基于 `Vue 2.x` + `Vue-CLI 3/4`。
 
--   解决了 `Prettier + ESlint + Vetur` 等几个插件冲突问题。
+-   解决了 `Prettier`、`ESlint`、`Vetur` 等几个插件冲突问题。
 
 -   提供了主流前端项目的通用 `Git` 忽略项。
 
@@ -65,26 +65,27 @@
 ```shell
 # 以 npm 为例，使用 yarn 等其他包管理工具的请自行替换成相应命令。
 
-npm install @babel/plugin-syntax-dynamic-import@7.8.3 --save-dev
-npm install @babel/plugin-transform-async-to-generator@7.14.5 --save-dev
-npm install @babel/plugin-transform-regenerator@7.14.5 --save-dev
-npm install @babel/plugin-transform-runtime@7.15.8 --save-dev
-npm install @babel/types@7.15.6 --save-dev
-npm install @typescript-eslint/eslint-plugin@4.33.0 --save-dev
-npm install @typescript-eslint/parser@4.33.0 --save-dev
-npm install @vue/cli-plugin-babel@4.5.14 --save-dev
-npm install @vue/cli-plugin-eslint@4.5.14 --save-dev
-npm install @vue/cli-plugin-typescript@4.5.14 --save-dev
-npm install @vue/eslint-config-prettier@6.0.0 --save-dev
-npm install @vue/eslint-config-typescript@8.0.0 --save-dev
-npm install babel-eslint@10.1.0 --save-dev
-npm install babel-plugin-import@1.13.3 --save-dev
-npm install eslint@7.32.0 --save-dev
-npm install eslint-plugin-html@6.2.0 --save-dev
-npm install eslint-plugin-prettier@3.4.1 --save-dev
-npm install eslint-plugin-vue@7.20.0 --save-dev
-npm install prettier@2.4.1 --save-dev
-npm install vue-eslint-parser@7.11.0 --save-dev
+npm install --save-dev @babel/eslint-parser@7.16
+npm install --save-dev @babel/plugin-syntax-dynamic-import@7.8
+npm install --save-dev @babel/plugin-transform-async-to-generator@7.16
+npm install --save-dev @babel/plugin-transform-regenerator@7.16
+npm install --save-dev @babel/plugin-transform-runtime@7.16
+npm install --save-dev @babel/types@7.16
+npm install --save-dev @typescript-eslint/eslint-plugin@5.9
+npm install --save-dev @typescript-eslint/parser@5.9
+npm install --save-dev @vue/cli-plugin-babel@4.5
+npm install --save-dev @vue/cli-plugin-eslint@4.5
+npm install --save-dev @vue/cli-plugin-typescript@4.5
+npm install --save-dev @vue/cli-service@4.5
+npm install --save-dev @vue/eslint-config-prettier@7.0
+npm install --save-dev @vue/eslint-config-typescript@10.0
+npm install --save-dev babel-plugin-import@1.13
+npm install --save-dev eslint@8.6
+npm install --save-dev eslint-plugin-html@6.2.0
+npm install --save-dev eslint-plugin-prettier@4.0
+npm install --save-dev eslint-plugin-vue@8.3
+npm install --save-dev prettier@2.5
+npm install --save-dev vue-eslint-parser@8.0
 ```
 
 ### 开发

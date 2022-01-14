@@ -29,7 +29,7 @@ module.exports = {
     plugins: ['@typescript-eslint', 'html', 'prettier', 'vue'],
     root: true,
     rules: {
-        'indent': ['error', 4, { SwitchCase: 1 }],
+        'indent': 'off',
         'linebreak-style': ['warn', 'windows'],
         'max-len': ['warn', 120],
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
@@ -38,6 +38,7 @@ module.exports = {
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
         'vue/html-closing-bracket-spacing': ['warn', { selfClosingTag: 'always' }],
+        'vue/multi-word-component-names': 'off',
         'vue/no-unused-components': 'warn',
         '@typescript-eslint/ban-ts-comment': 'warn',
         '@typescript-eslint/ban-ts-ignore': 'off',
