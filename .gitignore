@@ -23,4 +23,8 @@ pnpm-debug.log*
 
 # Package manager files
 node_modules
-.pnpm-debug.log
+/.yarn
+/.pnpm-store
+/.pnp
+.pnp.js
+.pnp.cjs
