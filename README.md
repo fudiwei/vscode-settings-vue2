@@ -85,7 +85,8 @@ npm install --save-dev eslint-plugin-html@6.2.0
 npm install --save-dev eslint-plugin-prettier@4.0
 npm install --save-dev eslint-plugin-vue@8.3
 npm install --save-dev prettier@2.5
-npm install --save-dev vue-eslint-parser@8.0
+npm install --save-dev tslib@latest
+npm install --save-dev typescript@latest
 ```
 
 ### 开发
