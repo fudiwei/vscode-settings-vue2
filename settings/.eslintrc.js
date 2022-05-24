@@ -46,6 +46,15 @@ module.exports = {
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/indent': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off',
+        '@typescript-eslint/no-unused-vars': [
+            'warn',
+            {
+                args: 'after-used',
+                argsIgnorePattern: '^_',
+                ignoreRestSiblings: true,
+                varsIgnorePattern: '^_$'
+            }
+        ],
         '@typescript-eslint/triple-slash-reference': 'off'
     }
 };
